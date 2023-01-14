@@ -14,6 +14,9 @@
 		ABC19866297217040002B09F /* sphereAndBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC19865297217040002B09F /* sphereAndBoxTests.swift */; };
 		ABC19870297217040002B09F /* sphereAndBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC1986F297217040002B09F /* sphereAndBoxUITests.swift */; };
 		ABC19872297217040002B09F /* sphereAndBoxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC19871297217040002B09F /* sphereAndBoxUITestsLaunchTests.swift */; };
+		ABEFB9E529722AD70092FF50 /* SphereParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEFB9E429722AD70092FF50 /* SphereParameters.swift */; };
+		ABEFB9E629722AD70092FF50 /* SphereParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEFB9E429722AD70092FF50 /* SphereParameters.swift */; };
+		ABEFB9E729722AD70092FF50 /* SphereParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEFB9E429722AD70092FF50 /* SphereParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,8 @@
 		ABC1986B297217040002B09F /* sphereAndBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sphereAndBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC1986F297217040002B09F /* sphereAndBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sphereAndBoxUITests.swift; sourceTree = "<group>"; };
 		ABC19871297217040002B09F /* sphereAndBoxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sphereAndBoxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABC1987E29721E1C0002B09F /* sphereAndBox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sphereAndBox-Bridging-Header.h"; sourceTree = "<group>"; };
+		ABEFB9E429722AD70092FF50 /* SphereParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +84,7 @@
 				ABC19864297217040002B09F /* sphereAndBoxTests */,
 				ABC1986E297217040002B09F /* sphereAndBoxUITests */,
 				ABC19851297217030002B09F /* Products */,
+				ABC1987E29721E1C0002B09F /* sphereAndBox-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				ABC19853297217030002B09F /* sphereAndBoxApp.swift */,
+				ABEFB9E429722AD70092FF50 /* SphereParameters.swift */,
 				ABC19855297217030002B09F /* ContentView.swift */,
 				ABC19857297217030002B09F /* Assets.xcassets */,
 				ABC19859297217030002B09F /* sphereAndBox.entitlements */,
@@ -197,6 +204,7 @@
 				TargetAttributes = {
 					ABC1984F297217030002B09F = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 					ABC19860297217040002B09F = {
 						CreatedOnToolsVersion = 14.2;
@@ -261,6 +269,7 @@
 			files = (
 				ABC19856297217030002B09F /* ContentView.swift in Sources */,
 				ABC19854297217030002B09F /* sphereAndBoxApp.swift in Sources */,
+				ABEFB9E529722AD70092FF50 /* SphereParameters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABEFB9E629722AD70092FF50 /* SphereParameters.swift in Sources */,
 				ABC19866297217040002B09F /* sphereAndBoxTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +288,7 @@
 			files = (
 				ABC19870297217040002B09F /* sphereAndBoxUITests.swift in Sources */,
 				ABC19872297217040002B09F /* sphereAndBoxUITestsLaunchTests.swift in Sources */,
+				ABEFB9E729722AD70092FF50 /* SphereParameters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +422,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = sphereAndBox/sphereAndBox.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -437,6 +449,8 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "sphereAndBox-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = sphereAndBox/sphereAndBox.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -473,6 +488,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "sphereAndBox-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
