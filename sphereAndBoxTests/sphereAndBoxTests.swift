@@ -27,12 +27,22 @@ final class sphereAndBoxTests: XCTestCase {
     
     func testSphereVolume() throws {
         
-        var sphereParameters = SphereParameters()
+        var sphereParameters = sphereParameters()
         sphereParameters.radius = 1.0
         
         var sphereVolume = sphereParameters.calculateVolumeOfSphere()
         var expectedValue = (4.0/3.0)*Double.pi
         XCTAssertEqual(expectedValue, sphereVolume, accuracy: 1e-14)
+        
+    }
+    func testCubeVolume() throws {
+        
+        var cubeParameters = cubeParameters()
+        cubeParameters.radius = 1.0
+        
+        var cubeVolume = cubeParameters.calculateVolumeOfCube()
+        var expectedValue = 8.0
+        XCTAssertEqual(expectedValue, cubeVolume, accuracy: 1e-14)
         
     }
     //Add same thing as above for SA and cube parameters

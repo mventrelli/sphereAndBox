@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-class SphereParameters: NSObject {
+class sphereParameters: NSObject {
     
     var radius = 0.0
     

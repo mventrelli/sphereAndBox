@@ -51,6 +51,13 @@ struct ContentView: View {
             self.sphereSurfaceArea = sphereParameters.calculateSurfaceAreaOfSphere()
             self.cubeVolume = pow(r*2, 3)
             self.cubeSurfaceArea = 6 * pow(r*2, 2)
+            var cubeParameters = CubeParameters()
+             sphereParameters.radius = r
+             
+             self.sphereVolume = sphereParameters.calculateVolumeOfSphere()
+             self.sphereSurfaceArea = sphereParameters.calculateSurfaceAreaOfSphere()
+             self.cubeVolume = pow(r*2, 3)
+             self.cubeSurfaceArea = 6 * pow(r*2, 2)
         }
         
     }

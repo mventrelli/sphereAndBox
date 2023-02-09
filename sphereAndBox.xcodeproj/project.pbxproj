@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB18227A297B4A1500A4E5ED /* sphereAndBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC19865297217040002B09F /* sphereAndBoxTests.swift */; };
+		AB18227B297B4A1500A4E5ED /* sphereAndBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC19865297217040002B09F /* sphereAndBoxTests.swift */; };
 		ABC19854297217030002B09F /* sphereAndBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC19853297217030002B09F /* sphereAndBoxApp.swift */; };
 		ABC19856297217030002B09F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC19855297217030002B09F /* ContentView.swift */; };
 		ABC19858297217030002B09F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC19857297217030002B09F /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		ABC19866297217040002B09F /* sphereAndBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC19865297217040002B09F /* sphereAndBoxTests.swift */; };
 		ABC19870297217040002B09F /* sphereAndBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC1986F297217040002B09F /* sphereAndBoxUITests.swift */; };
 		ABC19872297217040002B09F /* sphereAndBoxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC19871297217040002B09F /* sphereAndBoxUITestsLaunchTests.swift */; };
+		ABD846AD297A10BA00B3BD99 /* cubeParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD846AC297A10BA00B3BD99 /* cubeParameters.swift */; };
 		ABEFB9E529722AD70092FF50 /* SphereParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEFB9E429722AD70092FF50 /* SphereParameters.swift */; };
 		ABEFB9E629722AD70092FF50 /* SphereParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEFB9E429722AD70092FF50 /* SphereParameters.swift */; };
 		ABEFB9E729722AD70092FF50 /* SphereParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEFB9E429722AD70092FF50 /* SphereParameters.swift */; };
@@ -49,6 +52,7 @@
 		ABC1986F297217040002B09F /* sphereAndBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sphereAndBoxUITests.swift; sourceTree = "<group>"; };
 		ABC19871297217040002B09F /* sphereAndBoxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sphereAndBoxUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		ABC1987E29721E1C0002B09F /* sphereAndBox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sphereAndBox-Bridging-Header.h"; sourceTree = "<group>"; };
+		ABD846AC297A10BA00B3BD99 /* cubeParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cubeParameters.swift; sourceTree = "<group>"; };
 		ABEFB9E429722AD70092FF50 /* SphereParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +111,7 @@
 				ABC19857297217030002B09F /* Assets.xcassets */,
 				ABC19859297217030002B09F /* sphereAndBox.entitlements */,
 				ABC1985A297217030002B09F /* Preview Content */,
+				ABD846AC297A10BA00B3BD99 /* cubeParameters.swift */,
 			);
 			path = sphereAndBox;
 			sourceTree = "<group>";
@@ -269,6 +274,8 @@
 			files = (
 				ABC19856297217030002B09F /* ContentView.swift in Sources */,
 				ABC19854297217030002B09F /* sphereAndBoxApp.swift in Sources */,
+				ABD846AD297A10BA00B3BD99 /* cubeParameters.swift in Sources */,
+				AB18227A297B4A1500A4E5ED /* sphereAndBoxTests.swift in Sources */,
 				ABEFB9E529722AD70092FF50 /* SphereParameters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB18227B297B4A1500A4E5ED /* sphereAndBoxTests.swift in Sources */,
 				ABC19870297217040002B09F /* sphereAndBoxUITests.swift in Sources */,
 				ABC19872297217040002B09F /* sphereAndBoxUITestsLaunchTests.swift in Sources */,
 				ABEFB9E729722AD70092FF50 /* SphereParameters.swift in Sources */,
